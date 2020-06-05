@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>0b986ec4-3cc4-4ac0-bb7a-e2c5cf619c93@1.00x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M19,16 L19,17 L5,17 L5,16 L19,16 Z M19,12 L19,13 L5,13 L5,12 L19,12 Z M19,8 L19,9 L5,9 L5,8 L19,8 Z" id="path-1"></path>
+    </defs>
+    <g id="Interface-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Interface-/-General-/-icn_nav_drawer-/-line">
+            <rect fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="mask" fill="#2E3134" xlink:href="#path-1"></use>
+            <g id="Fill-/-Shark" mask="url(#mask-2)" fill="#2E3134" fill-rule="nonzero">
+                <polygon id="ui/color/shark" points="0 0 24 0 24 24 0 24"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
