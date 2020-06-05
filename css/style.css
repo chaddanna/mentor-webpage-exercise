@@ -1,5 +1,63 @@
 body {
-  background-color: #000;
+  margin: 0;
 }
+
 .header {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav,
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: rgba(46, 49, 52, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+.actions button {
+  background: none;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: 0;
+  padding: 4px 10px;
+}
+
+.actions button + button {
+  margin-left: 30px;
+}
+
+.actions button:last-child {
+  margin-right: 20px;
+}
+
+.actions .blue {
+  background: rgb(0, 105, 210);
+  box-shadow: 0px 1px 2px 0px rgba(46, 49, 52, 0.4);
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-transform: uppercase;
 }
