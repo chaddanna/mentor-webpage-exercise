@@ -1,0 +1,23 @@
+{
+  "name": "mentor-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaddanna/mentor-webpage-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaddanna/mentor-webpage-exercise/issues"
+  },
+  "homepage": "https://github.com/chaddanna/mentor-webpage-exercise#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
