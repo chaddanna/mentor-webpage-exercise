@@ -7,7 +7,7 @@ The design file: https://app.abstract.com/projects/32339014-fead-4cfd-bad0-2b6c3
 ## Todo List
 
 - [x] [Nav](docs/nav.png)
-- [ ] [Hero with slideshow](docs/hero.pngu)
+- [ ] [Hero with slideshow](docs/hero.png)
 - [ ] [Scrolling equipment option cards](docs/scrolling-equipment-cards.png)
 - [ ] [CTA "React your goals..."](docs/cta-goals.png)
 - [ ] [Slideshow "Access thousands of trainer-led workouts."](docs/slideshow.png)
