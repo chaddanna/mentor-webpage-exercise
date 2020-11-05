@@ -61,3 +61,50 @@ nav a {
   padding: 8px 16px;
   text-transform: uppercase;
 }
+
+.slide h1 {
+color: rgb(255, 255, 255);
+font-family: ProximaNova-Semibold;
+font-size: 84px;
+font-weight: 600;
+letter-spacing: 0.3px;
+line-height: 100px;
+text-align: center;
+margin-top: 0;
+max-width: 808px ;
+}
+
+.slide p {
+color: rgb(255, 255, 255);
+font-family: ProximaNova-Semibold;
+font-size: 12px;
+font-weight: 600;
+letter-spacing: 0.3px;
+line-height: 14px;
+text-align: center;
+margin-top: 113px;
+}
+
+.slide {
+  background: url("https://pbs.twimg.com/profile_images/1250195449090174977/Di01dCqS_400x400.jpg") no-repeat center center;
+  background-size: cover; 
+  height: 680px ; 
+  justify-content: center; 
+  flex-direction: column;
+  display: flex; 
+  align-items: center; 
+}
+
+.brands {
+  background: rgb(0, 12, 40);
+  height: 66px;
+  display: flex;
+  justify-content: space-between ;
+}
+.brands img {
+max-width: 166px ;
+}
+
+.brands span {
+  color: white ;
+}
