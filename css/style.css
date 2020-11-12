@@ -61,6 +61,17 @@ nav a {
   padding: 8px 16px;
   text-transform: uppercase;
 }
+.hero {
+  position: relative;
+}
+
+.indicators {
+  position: absolute;
+}
+
+.controls {
+  position: absolute;
+}
 
 .slide h1 {
   color: rgb(255, 255, 255);
@@ -86,7 +97,7 @@ nav a {
 }
 
 .slide {
-  background: url("https://pbs.twimg.com/profile_images/1250195449090174977/Di01dCqS_400x400.jpg")
+  background: url("https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg")
     no-repeat center center;
   background-size: cover;
   height: 680px;
@@ -97,11 +108,33 @@ nav a {
 }
 
 .brands {
-  background: rgb(0, 12, 40);
+  background: rgba(0, 12, 40, 0.64);
   height: 66px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
+
+.brands .content {
+  max-width: 1134px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands span {
+  font-family: ProximaNova-Semibold;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
 .brands img {
   max-width: 166px;
 }
